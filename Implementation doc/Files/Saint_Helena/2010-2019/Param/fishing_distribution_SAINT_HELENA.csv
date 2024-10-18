@@ -1,0 +1,13 @@
+Gear_name,Gear_code,Habitat_s0,Habitat_s1,Habitat_s2,Habitat_s3,Habitat_d0,Habitat_d1,Habitat_d2,Habitat_d3,Habitat_DO
+Pole_and_line,PL,0.3,0,0.1,0,0,0,0,0,0.6
+Longlines,LL,0,0,0,0,0,0,0,0,1
+Illegal_longlines,ILL,0,0,0,0,0,0,0,0,1
+Hand_lines,HL,1,0,0,0,0,0,0,0,0
+Handlines_and_dip-nets_(bait),HD,0.5,0,0.5,0,0,0,0,0,0
+Illegal_purse_seine,IPS,0,0,0,0,0,0,0,0,1
+Pots_and_hand_gathering,PH,1,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0
