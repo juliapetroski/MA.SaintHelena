@@ -1,0 +1,85 @@
+Annual_measure,SD_of_measure,Use1_0,Name,Units,Description,Region,Time_period,Source
+1075,300,1,Obs_TAPP,mMN/m2/y,Annual_total_primary_production,Ascension_Island_EEZ,2010-2019,Globcolour-satellite data
+NA,NA,0,Obs_NP,mMN/m2/y,Annual_new_production_from_depth_integrated_nitrate_plus_summer_river_and_atmos_inputs,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_KelpP,gC/m2/y,Annual_WITHIN_FOREST_NET_production_of_macrophytes,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_OmnizooP,mMN/m2/y,Annual_ominiv_zooplankton_gross_production,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_CarnzooP,mMN/m2/y,Annual_carnivorous_zooplankton_gross_production,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_PFishP,mMN/m2/y,Annual_planktivorous_fish_gross_production,Saint_Helena_Island_EEZ,2010-2019,No information
+0.1663123759,0.0173147131,1,Obs_DFishP,mMN/m2/y,Annual_demersal_fish_gross_production,Saint_Helena_Island_EEZ,2010-2019,Based on the average reef fish biomass from Ferrari et al. (2024)
+NA,NA,0,Obs_BensuspP,mMN/m2/y,Annual_susp/dep_benthos_gross_production,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_BencarnP,mMN/m2/y,Annual_carn/scan_benthos_gross_production,Saint_Helena_Island_EEZ,2010-2019,No information
+0.0001775971322,0.00004439928305,1,Obs_birdP,mMN/m2/y,Annual_net_production_of_birds,Saint_Helena_Island_EEZ,2010-2019,Based on a rough estimate of 9.8246 tonnes of birds - PB 5.4 (Capitani et al. 2021) and netP 0.6xgrossP
+NA,NA,0,Obs_sealP,mMN/m2/y,Annual_net_production_of_pinnipeds,Saint_Helena_Island_EEZ,2010-2019,No information
+0.001666879357,0.00041671983925,1,Obs_cetaP,mMN/m2/y,Annual_net_production_of_cetaceans,Saint_Helena_Island_EEZ,2010-2019,"Based on a rough estimate of a biomass of 8762t, PB from Morissette et al. (2009) and netP 0.6*grossP"
+NA,NA,0,Obs_maxbenthslar,mMN/m3,Annual_monthly_max_conc_of_benthos_susp/dep_larvae,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_maxbenthclar,mMN/m3,Annual_monthly_max_conc_of_benthos_carn/scav_larvae,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Conpfishfish,mMN/m2/y,Annual_consumption_of_planktivorous_fish_by_fish,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Condfishfish,mMN/m2/y,Annual_consumption_of_demersal_fish_by_fish,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Conzoofish,mMN/m2/y,Annual_consumption_of_omniv_zooplankton_by_fish_and_fish_larvae,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Conzoocarnz,mMN/m2/y,Annual_consumption_of_omniv_zooplankton_by_carn_zooplankton,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Conbenfish,mMN/m2/y,Annual_consumption_of_benthos_by_fish,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Contotal_bird,mMN/m2/y,Annual_food_consumption_by_birds,Saint_Helena_Island_EEZ,2010-2019,No information
+0.266,0.0665,1,Obs_Proppfishbird,dimensionless,Proportion_planktivorous_fish_in_diet_of_birds,Saint_Helena_Island_EEZ,2010-2019,Beard et al. (2024)
+0,0,1,Obs_Propdfishbird,dimensionless,Proportion_demersal_fish_in_diet_of_birds,Saint_Helena_Island_EEZ,2010-2019,Beard et al. (2024)
+0,0,1,Obs_Propmfishbird,dimensionless,Proportion_migratory_fish_in_diet_of_birds,Saint_Helena_Island_EEZ,2010-2019,Beard et al. (2024)
+0,0,1,Obs_Propdiscbird,dimensionless,Proportion_discards_in_diet_of_birds,Saint_Helena_Island_EEZ,2010-2019,Beard et al. (2024)
+NA,NA,0,Obs_Contotal_seal,mMN/m2/y,Annual_food_consumption_by_pinnipeds,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Proppfishseal,dimensionless,Proportion_planktivorous_fish_in_diet_of_pinnipeds,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Propdfishseal,dimensionless,Proportion_demersal_fish_in_diet_of_pinnipeds,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Propmfishseal,dimensionless,Proportion_migratory_fish_in_diet_of_pinnipeds,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Contotal_ceta,mMN/m2/y,Annual_food_consumption_by_cetaceans,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Proppfishceta,dimensionless,Proportion_planktivorous_fish_in_diet_of_cetaceans,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Propdfishceta,dimensionless,Proportion_demersal_fish_in_diet_of_cetaceans,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Propmfishceta,dimensionless,Proportion_migratory_fish_in_diet_of_cetaceans,Saint_Helena_Island_EEZ,2010-2019,No information
+0.0000129854,0.0000107811,1,Obs_Pland_livewt,mMN/m2/y,Annual_planktivorous_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 mackerel
+0.0000318358,0.0000209377,1,Obs_Dland_livewt,mMN/m2/y,Annual_demersal_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,"Environment and Natural Resources Directorate database 2010-2019 grouper, bullseye and conger"
+0.0017889074,0.0011146185,1,Obs_Mland_livewt,mMN/m2/y,Annual_migratory_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 tunas and others large pelagics
+NA,NA,0,Obs_Bsland_livewt,mMN/m2/y,Annual_susp/dep_benthos_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 but no SD benthos recorded
+0.00000010695,0.00000013698,1,Obs_Bcland_livewt,mMN/m2/y,Annual_carn/scav_benthos_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 lobster
+NA,NA,0,Obs_Zcland_livewt,mMN/m2/y,Annual_carn_zooplankton_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 but no PelInverts recorded
+NA,NA,0,Obs_Kland_livewt,mMN/m2/y,Annual_macrophyte_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 but no Seaweeds recorded
+2,0.5,0,Obs_kelp_pb,/y,Annual_CARBON_gross_PB_ratio_of_macrophytes,General_value,NA,Brady_Campbell_et_al_1984
+10,5,1,Obs_benslar_pb,/y,Annual_gross_PB_ratio_larvae_of_susp/dep_benthos,General_value,NA,Mackinson_and_Daskalov_2007
+10,5,1,Obs_benclar_pb,/y,Annual_gross_PB_ratio_larvae_of_carn/scav_benthos,General_value,NA,Mackinson_and_Daskalov_2007
+10,3,1,Obs_bens_pb,/y,Annual_gross_PB_ratio_susp/dep_feeding_benthos,General_value,NA,Mackinson_and_Daskalov_2007
+1.125,0.035,1,Obs_benc_pb,/y,Annual_gross_PB_ratio_carn/scav_feeding_benthos,South_Atlantic,NA,Vasconcellos and Watson (2004)
+17.3,4.325,1,Obs_omni_pb,/y,Annual_gross_PB_ratio_omniv_zooplankton,South_Atlantic,NA,Vasconcellos and Watson (2004)
+6.65,2.367,1,Obs_carn_pb,/y,Annual_gross_PB_ratio_carniv_zooplankton,South_Atlantic,NA,Vasconcellos and Watson (2004)
+4,2,1,Obs_fishplar_pb,/y,Annual_gross_PB_ratio_larvae_of_planktivorous_fish,General_value,NA,Mackinson_and_Daskalov_2007
+4,2,1,Obs_fishdlar_pb,/y,Annual_gross_PB_ratio_larvae_of_demersal_fish,General_value,NA,Mackinson_and_Daskalov_2007
+2.249,0.277,1,Obs_fishp_pb,/y,Annual_gross_PB_ratio_planktivorous_fish,South_Atlantic,NA,Vasconcellos and Watson (2004)
+0.73,0.1825,1,Obs_fishd_pb,/y,Annual_gross_PB_ratio_demersal_fish,South_Atlantic,NA,Average PB reported by Freire et al. (2008) for reef fishes
+1.3,0.6,1,Obs_fishm_pb,/y,Annual_gross_PB_ratio_migratory_fish,General_value,NA,Mackinson_and_Daskalov_2007
+5.4,1.35,1,Obs_bird_pb,/y,Annual_net_PB_ratio_birds,Other_oceanic_island,NA,Capitani et al. (2021)
+0.09,0.045,0,Obs_seal_pb,/y,Annual_net_PB_ratio_pinnipeds,General_value,NA,Mackinson_and_Daskalov_2007
+0.054,0.03,1,Obs_ceta_pb,/y,Annual_net_PB_ratio_cetaceans,South_Atlantic,NA,Morissette et al. (2009)
+0.3,0.1,0,Obs_exud_C_kelp,dimensionless,Annual_average_proportion_of_macrophyte_C_uptake_which_is_exuded,General_value,NA,Abdullah_and_Fredriksen_2004
+0.12,0.2,0,Obs_kelp_NC,dimensionless,Annual_average_molar_NC_ratio_of_macrophytes,General_value,NA,Sjotun_et_al_1996/Broch_and_Slagstad_2012
+NA,NA,0,Obs_Denitrif,mMN/m2/y,Annual_denitrification,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_Dfdiscardp,dimensionless,Proportion_of_demersal_fish_catch_discarded,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_s_x_ammonia,mMN/m3,Annual_average_ammonia_conc_in_porewater_of_sand_gs_0.25mm,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_d_x_ammonia,mMN/m3,Annual_average_ammonia_conc_in_porewater_of_mud_gs_0.12mm,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_s_x_nitrate,mMN/m3,Annual_average_nitrate_conc_in_porewater_of_sand_gs_0.25mm,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_d_x_nitrate,mMN/m3,Annual_average_nitrate_conc_in_porewater_of_mud_gs_0.12mm,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_s_x_TON,%N(gN/g_dry_sed),Annual_average_organic_N_content_of_sand_gs_0.25mm_(0.19-0.43mm),Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_d_x_TON,%N(gN/g_dry_sed),Annual_average_organic_N_content_of_mud_gs_0.12mm_(0.03-0.07mm),Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_NDJF_s_nitrate,mMN/m3,Average_winter_(Nov-Feb)_nitrate_conc_shallow_layer,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_MJJA_s_nitrate,mMN/m3,Average_summer_(May-Aug)_nitrate_conc_shallow_layer,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_NDJF_d_nitrate,mMN/m3,Average_winter_(Nov-Feb)_nitrate_conc_deep_layer,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_MJJA_d_nitrate,mMN/m3,Average_summer_(May-Aug)_nitrate_conc_deep_layer,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_NDJF_s_ammonia,mMN/m3,Average_winter_(Nov-Feb)_ammonia_conc_shallow_layer,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_MJJA_s_ammonia,mMN/m3,Average_summer_(May-Aug)_ammonia_conc_shallow_layer,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_NDJF_d_ammonia,mMN/m3,Average_winter_(Nov-Feb)_ammonia_conc_deep_layer,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_MJJA_d_ammonia,mMN/m3,Average_summer_(May-Aug)_ammonia_conc_deep_layer,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_carn_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_carnzoo_depth_av_conc,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_omni_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_omnivzoo_depth_av_conc,Saint_Helena_Island_EEZ,2010-2019,No information
+1.049,0.4,1,Obs_phyt_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_phyt_surface_layer_conc,Ascension_Island_EEZ,2010-2019,Remote sensing satellite data
+NA,NA,0,Obs_nit_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_nitrate_surface_layer_conc,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_amm_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_ammonia_surface_layer_conc,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_pfish_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_planktivorous_fish_density_per_m2,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_dfish_io_ratio,dimensionless,Inshore_offshore_ratio_of_annual_mean_demersal_fish_density_per_m2,Saint_Helena_Island_EEZ,2010-2019,No information
+0.000000260234,0.000000232681,1,Obs_birddisc,mMN/m2/y,Annual_bycatch_of_birds,Saint_Helena_Island_EEZ,2010-2019,Bycatch_estimated_from_longlines_and_handlines
+NA,NA,0,Obs_sealdisc,mMN/m2/y,Annual_bycatch_of_pinnipeds,Saint_Helena_Island_EEZ,2010-2019,No information
+NA,NA,0,Obs_cetadisc,mMN/m2/y,Annual_bycatch_of_cetaceans,Saint_Helena_Island_EEZ,2010-2019,No information
+0.15,0.05,1,Obs_kelp_beachcast,dimensionless,Proportion_of_macrophyte_annual_nitrogen_uptake_exported_as_beachcast,General_value,NA,Zemke_White_et_al_2005
+NA,NA,0,Obs_Ctland_livewt,mMN/m2/y,Obs_cetacean_landings_by_whale_hunters,Saint_Helena_Island_EEZ,2010-2019,No information

@@ -1,0 +1,109 @@
+Month,Variable,median,lower_centile,upper_centile,Units,low_cent_value,upp_cent_value,Comments
+Jan,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Feb,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Mar,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Apr,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+May,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Jun,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Jul,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Aug,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Sep,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Oct,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Nov,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Dec,surface_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Jan,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Feb,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Mar,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Apr,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+May,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Jun,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Jul,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Aug,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Sep,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Oct,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Nov,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Dec,deep_nitrate,NA,NA,NA,mMNm3,17,83,No_data_available
+Jan,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Feb,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Mar,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Apr,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+May,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Jun,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Jul,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Aug,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Sep,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Oct,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Nov,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Dec,surface_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Jan,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Feb,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Mar,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Apr,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+May,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Jun,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Jul,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Aug,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Sep,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Oct,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Nov,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Dec,deep_ammonia,NA,NA,NA,mMNm3,17,83,No_data_available
+Jan,surface_chlorophyll,0.09500,0.04750,0.19000,mgm3,5,95,AQUA-MODIS 1km resolution
+Feb,surface_chlorophyll,0.07875,0.039375,0.1575,mgm3,5,95,AQUA-MODIS 1km resolution
+Mar,surface_chlorophyll,0.06250,0.03125,0.12500,mgm3,5,95,AQUA-MODIS 1km resolution
+Apr,surface_chlorophyll,0.08750,0.04375,0.17500,mgm3,5,95,AQUA-MODIS 1km resolution
+May,surface_chlorophyll,0.10875,0.054375,0.2175,mgm3,5,95,AQUA-MODIS 1km resolution
+Jun,surface_chlorophyll,0.11000,0.05500,0.22000,mgm3,5,95,AQUA-MODIS 1km resolution
+Jul,surface_chlorophyll,0.11875,0.059375,0.2375,mgm3,5,95,AQUA-MODIS 1km resolution
+Aug,surface_chlorophyll,0.11875,0.059375,0.2375,mgm3,5,95,AQUA-MODIS 1km resolution
+Sep,surface_chlorophyll,0.12125,0.060625,0.2425,mgm3,5,95,AQUA-MODIS 1km resolution
+Oct,surface_chlorophyll,0.09375,0.046875,0.1875,mgm3,5,95,AQUA-MODIS 1km resolution
+Nov,surface_chlorophyll,0.11500,0.05750,0.23000,mgm3,5,95,AQUA-MODIS 1km resolution
+Dec,surface_chlorophyll,0.10375,0.051875,0.2075,mgm3,5,95,AQUA-MODIS 1km resolution
+Jan,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Feb,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Mar,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Apr,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+May,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Jun,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Jul,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Aug,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Sep,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Oct,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Nov,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Dec,omniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Jan,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Feb,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Mar,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Apr,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+May,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Jun,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Jul,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Aug,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Sep,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Oct,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Nov,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Dec,carniv_zooplankton,NA,NA,NA,mMNm3,17,83,No_data_available
+Jan,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Feb,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Mar,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Apr,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+May,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Jun,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Jul,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Aug,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Sep,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Oct,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Nov,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Dec,larvae_susp_dep_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Jan,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Feb,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Mar,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Apr,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+May,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Jun,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Jul,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Aug,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Sep,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Oct,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Nov,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
+Dec,larvae_carn_scav_benthos,NA,NA,NA,mMNm3,17,83,No_data_available
