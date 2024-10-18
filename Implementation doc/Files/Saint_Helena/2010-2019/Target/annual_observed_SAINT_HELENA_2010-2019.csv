@@ -31,11 +31,11 @@ NA,NA,0,Obs_Contotal_ceta,mMN/m2/y,Annual_food_consumption_by_cetaceans,Saint_He
 NA,NA,0,Obs_Proppfishceta,dimensionless,Proportion_planktivorous_fish_in_diet_of_cetaceans,Saint_Helena_Island_EEZ,2010-2019,No information
 NA,NA,0,Obs_Propdfishceta,dimensionless,Proportion_demersal_fish_in_diet_of_cetaceans,Saint_Helena_Island_EEZ,2010-2019,No information
 NA,NA,0,Obs_Propmfishceta,dimensionless,Proportion_migratory_fish_in_diet_of_cetaceans,Saint_Helena_Island_EEZ,2010-2019,No information
-0.0000129854,0.0000107811,1,Obs_Pland_livewt,mMN/m2/y,Annual_planktivorous_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 mackerel
-0.0000318358,0.0000209377,1,Obs_Dland_livewt,mMN/m2/y,Annual_demersal_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,"Environment and Natural Resources Directorate database 2010-2019 grouper, bullseye and conger"
-0.0017889074,0.0011146185,1,Obs_Mland_livewt,mMN/m2/y,Annual_migratory_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 tunas and others large pelagics
+0.0000124639,0.0000103482,1,Obs_Pland_livewt,mMN/m2/y,Annual_planktivorous_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 mackerel
+0.0000305574,0.000020097,1,Obs_Dland_livewt,mMN/m2/y,Annual_demersal_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,"Environment and Natural Resources Directorate database 2010-2019 grouper, bullseye and conger"
+0.001717072,0.0010698598,1,Obs_Mland_livewt,mMN/m2/y,Annual_migratory_fish_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 tunas and others large pelagics
 NA,NA,0,Obs_Bsland_livewt,mMN/m2/y,Annual_susp/dep_benthos_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 but no SD benthos recorded
-0.00000010695,0.00000013698,1,Obs_Bcland_livewt,mMN/m2/y,Annual_carn/scav_benthos_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 lobster
+0.00000010266,0.00000013148,1,Obs_Bcland_livewt,mMN/m2/y,Annual_carn/scav_benthos_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 lobster
 NA,NA,0,Obs_Zcland_livewt,mMN/m2/y,Annual_carn_zooplankton_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 but no PelInverts recorded
 NA,NA,0,Obs_Kland_livewt,mMN/m2/y,Annual_macrophyte_landings_(live_weight),Saint_Helena_Island_EEZ,2010-2019,Environment and Natural Resources Directorate database 2010-2019 but no Seaweeds recorded
 2,0.5,0,Obs_kelp_pb,/y,Annual_CARBON_gross_PB_ratio_of_macrophytes,General_value,NA,Brady_Campbell_et_al_1984
