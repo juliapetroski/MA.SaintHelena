@@ -79,7 +79,7 @@ The seafloor within the StrathE2E model can be classified into eight habitat typ
 
 [Habitat maps inshore for Saint Helena to be defined]
 
-As of V.4, StrathE2E2 can represent an offshore "overhang" where open ocean does not contact the seafloor (Figure \@ref(fig:overhang)). The perimeter of the offshore zone in the model domain is the edge of the MPA, with a "false bottom" (overhang) that exchanges with the deep sea. By using the MPA to define the model domain, we accurately represent the protected status of Saint Helena Island, which also corresponds to the Exclusive Economic Zone (EEZ). The total area of the model is 444,901 km².
+As of V.4, StrathE2E2 can represent an offshore "overhang" where open ocean does not contact the seafloor (Figure \@ref(fig:overhang)). The perimeter of the offshore zone in the model domain is the edge of the MPA, with a "false bottom" (overhang) that exchanges with the deep sea.  By using the MPA to define the model domain, we accurately represent the protected area status of Saint Helena Island, which also corresponds to the Exclusive Economic Zone (EEZ). The total area of the model is 450,906.82 km².
 
 ```{r domain, echo=FALSE, fig.cap="Map of the model domain. StrathE2E defines seabed sediment habitats as inshore (light gray) or offshore/overhang (dark gray). Within each zone, three sediment classes can be represented -- fine (muddy, 1), medium (sandy, 2) and coarse (gravel, 3). A fourth class (rock, 0) represents an absence of soft sediment. Note that the majority of the Saint Helena model domain is comprised by the 'overhang', which does not contact the sea floor.", out.width = '100%'}
 knitr::include_graphics("img/domain.png")
@@ -290,7 +290,7 @@ We gathered the spawning and recruitment periods for each guild based on literat
 
 #### Planktivorous {.unnumbered}
 
-We did not find specific data regarding the reproductive period of planktivorous species in Saint Helena. Therefore, we inferred a spawning period during the austral spring and summer, with recruitment occurring in autumn and winter, based on data from small pelagics at the Saint Peter and Saint Paul Rocks (see SPSP model implementation). The spawning period for the planktivorous guild was set from December 1st to March 31st, and recruitment from April 1st to June 30th.
+We found no specific data on the reproductive period of planktivorous species in Saint Helena, except for the report that chub mackerel (*Scomber japonicus*) spawns there in March (Edwards, 1990). Therefore, we inferred a spawning period during the austral spring and summer, with recruitment occurring in autumn and winter, based on data from small pelagic species at the Saint Peter and Saint Paul Rocks (refer to the SPSP model implementation) and other regions of the South Atlantic. The spawning period for the planktivorous guild was set from December 1st to March 31st, and recruitment from April 1st to June 30th.
 
 #### Demersal {.unnumbered}
 
@@ -336,7 +336,7 @@ Beyond tuna species, other significant migratory species in the region include s
 
 For whale sharks (*Rhincodon typus*), which are not fished but are seasonally abundant in Saint Helena from December to May each year (Perry et al., 2020), 277 individual sharks were identified through photographic identification between 2013 and 2019 (Perry et al., 2020). We used this number as a reference, estimating their biomass by multiplying the average weight from FishBase.
 
-Our estimates suggest an annual migratory fish biomass of X tons per km², totaling 22,913 tons within the Saint Helena EEZ. Our biomass estimates for the 12 main stocks in the Atlantic region occurring around Saint Helena totaled 3,275,099.7 tons. The proportion of the migratory stock entering the model domain was calculated to be 0.7%. For tuna species alone, we estimated a proportion of 0.41%, consistent with the reported catch proportions from Saint Helena relative to total Atlantic catches. Figure \@ref(fig:migratory)) shows the dominant species in the Saint Helena Island EEZ in terms of biomasses compiled here.
+Our estimates resulted in an annual migratory fish biomass of 22,913 tons within the Saint Helena EEZ. Our biomass estimates for the 12 main stocks in the Atlantic region occurring around Saint Helena totaled 3,275,099.7 tons. The proportion of the migratory stock entering the model domain was calculated to be 0.7%. For tuna species alone, we estimated a proportion of 0.41%, consistent with the reported catch proportions from Saint Helena relative to total Atlantic catches. Figure \@ref(fig:migratory)) shows the dominant species in the Saint Helena Island EEZ in terms of biomasses compiled here.
 
 ```{r migratory, echo=FALSE, fig.align='center', fig.cap="Proportion of biomasses by species of the assessed migratory guild in the Saint Helena EEZ", out.width = '50%'}
 knitr::include_graphics("img/migratory.png")
@@ -477,6 +477,26 @@ We also utilized data from the ICCAT, which records and stores pelagic fishing d
 knitr::include_graphics("img/catch.png")
 ```
 
+### Pole and line {.unnumbered}
+
+The average annual landings between 2010 and 2019 were 329.5 tonnes, with a maximum of 877.88 tonnes in 2011 and a minimum of 99.6 tonnes in 2013. All landings targeted the migratory fish guild. Yellowfin tuna contributed nearly 50% of the total landings, followed by skipjack tuna with 26%, and bigeye tuna with 16%. The remaining catch consisted of wahoo, albacore/longfin tuna, marlins, and sharks.
+
+### Longlines {.unnumbered}
+
+Longline fishing occurred only between 2011 and 2013, resulting in a total catch of 23.71 tonnes. Only species from the migratory fish guild were landed, primarily swordfish and bigeye tuna.
+
+### Handlines {.unnumbered}
+
+A total of 132.28 tonnes were landed between 2010 and 2019, with a minimum of 2.57 tonnes in 2015 and a maximum of 25.13 tonnes in 2010. The most fished guild was demersal fish, with 81.219 tonnes of grouper and 21.46 tonnes of conger eel. Other species caught included cavalley, dorado, and yellowtail.
+
+### Handlines and dip-nets {.unnumbered}
+
+A total of 27.58 tonnes of planktivorous fish were caught, with the only species identified in the database being mackerels.
+
+### Pots and Hand-Gathering {.unnumbered}
+
+A total of 0.46 tonnes of the lobsters (CS benthos guild) *Panulirus echinatus* and *Scyllarides obtusus* were landed from 2010 to 2019.
+
 ## Discards {.unnumbered}
 
 We considered that fishery discards in the St Helena fleets are minimal, primarily due to the use of "one-by-one" techniques, which allow fishermen to avoid unwanted species. According to Carleton et al. (2010), the pelagic fleets in Saint Helena occasionally incidentally catch cavally (*Pseudocaranx dentex*), dolphinfish (*Coryphaena spp.*), blue marlin (*Makaira nigricans*), and pelagic sharks. However, they report that, aside from some sharks, nearly all incidental catches are either sold or retained by fishermen for home consumption.
@@ -560,19 +580,21 @@ We assumed no seabed abrasion rate (plough rate) per unit of time, as the fleets
 
 ## Other processing {.unnumbered}
 
-1.  Total catch by fleet and guild was calculated by combining landings with discard/bycatch values.
+1. Total catch by fleet and guild was calculated by combining landings with discard/bycatch values.
 
-2.  Discarded weight was calculated as catch - landings.
+2. When catch was 0 discard rates were set to 1 
 
-3.  When catch was 0 discard rates were set to 1.
+3. Fishing power was calculated as catch/activity per fleet.
 
-4.  Fishing power was calculated as catch / activity per fleet.
+4. Demersal non quota and quota limited were combined into a single Demersal guild for catch, landings and discards.
 
 # Target data {.unnumbered}
 
-Observed (target) data is used in the fitting process to train StrathE2E to return sensible values during the simulated annealing scheme (see the methodology implemented in StrathE2E in X and Y). Ecosystem state indices included in the optimisation process are data regarding the gross and net production of commercial guilds, PB ratios, fishery landings, bycatch, and other properties, located in the file "annual_observed_SAINT_HELENA.csv".
+The observed (target) data and its standard deviation (SD) are used in the fitting process to train StrathE2E, ensuring it returns reasonable values during the simulated annealing scheme (see the methodology implemented in StrathE2E in sources X and Y). The ecosystem state indices included in the optimization process comprise data on the gross and net production of commercial guilds, production-to-biomass (PB) ratios, dietary proportions of top predators, fishery landings, bycatch, and other relevant properties, all located in the file "annual_observed_SAINT_HELENA.csv."
 
-To optimize fishing gear activity rates we used target data concerning the harvest ratios (the proportion of exploitable biomass captured per day within each guild), fitting a scaling parameter for the effort-to-harvest ratio. The resultant values can be found in the files "region_harvest_SAINT_HELENA.csv" and "zonal_harvest_r\_SAINT_HELENA.csv".
+The landings and bycatch data compiled in Section X were used as target data, expressed in units of mMN/m²/year. The SD for landings was calculated based on the 2010–2019 time series, while for bycatch, the SD was assumed to be 25% of the corresponding values.
+
+To optimize fishing gear activity rates we used target data concerning the harvest ratios (the proportion of exploitable biomass captured per day within each guild), fitting a scaling parameter for the effort-to-harvest ratio. The resultant values can be found in the files "region_harvest_SAINT_HELENA.csv" and "zonal_harvest_r_SAINT_HELENA.csv".
 
 ## Production and PB ratios {.unnumbered}
 
@@ -583,7 +605,7 @@ In our literature search, we encountered a limited number of recent studies quan
 ```{r production_cap}
 
 tab_production_cap <- table_nums(name = "production_tab",
-    caption = "PB ratios utilized to estimate production as target data for each commercial guild in the model. Production values are presented in tonnes. The mMN conversion indicates the values used to convert the gross and net production from grams to molar nitrogen mass, using @greenstreet96. The final production is presented in units of millimoles of nitrogen per m^2^.")
+    caption = "PB ratios utilized to estimate gross (demersal fish) and net (seabirds and cetaceans) production as target data for each commercial guild in the model. Production values are presented in tonnes. The mMN conversion indicates the values used to convert the gross and net production from grams to molar nitrogen mass, using @greenstreet96. The final production is presented in units of millimoles of nitrogen per m^2^.")
   
 ```
 
@@ -595,11 +617,11 @@ library(dplyr)
 library(gt)
 
 production_tab <- data.frame(
-  Guild = c("Seabirds", "Cetaceans", "Migratory"),
-  `P/B` = c(0.28,	"0.02-0.099",	1.3),
-  `Production(t)` = c(2.43, 497.94, 4247569.84),
-  `mMN convertion` = c(2.5157,	2.5157,	2.3145),
-  `Production (mMN.m-2)` = c(0.00001372,	0.00168938,	0.153245),
+  Guild = c("Seabirds", "Cetaceans", "Demersal fish"),
+  `P/B` = c(5.4,	"0.02-0.099",	0.73),
+  `Production(t)` = c(31.83, 298.76, 57881.7),
+  `mMN convertion` = c(2.5157,	2.5157,	1.2956),
+  `Production (mMN.m-2)` = c(0.000177597,	0.00166688,	0.16631),
   check.names = F
 )
 
@@ -642,17 +664,17 @@ The breeding population of sooty terns (*Onchyprion fuscata*) on St. Helena is e
 
 Collectively, these figures suggest a seabird population of around 17,000 individuals. Furthermore, seven additional seabird species are classified as residents by the St. Helena Government (2023), though little information is available on their biomass or abundance. These species include *Bulweria bulwerii*, *Pelagodroma marina*, *Sula sula*, *Puffinus griseus*, *Puffinus lherminieri*, *Fregata ariel*, and *Fregata minor*. For the purposes of this study, we estimated a population of roughly 1,000 individuals for each of these species.
 
-By multiplying the estimated number of individuals by the average weight of each species, as provided by BirdLife International (2024) and Sealife (X), we arrive at an approximate seabird biomass of 14.44 tons. This biomass estimate served as the basis for calculating seabird production in the Saint Helena EEZ, with a PB ratio of 0.28.
+By multiplying the estimated number of individuals by the average weight of each species, as provided by BirdLife International (2024) and Sealife (2024), we obtained an approximate seabird biomass of 9.82 tons, equating to X t/km². To obtain the production per year we used the P/B ratio for seabirds from the Ecopath model of Capitani et al. (2021) based on Rocas Atoll, another tropical reef ecosystem in the Southwest Atlantic.
 
 ### Cetaceans {.unnumbered}
 
 No biomass data are available for cetaceans in the St Helena EEZ. However, sighting data was used to roughly estimate population numbers, which were then converted to biomass using the average weight of females and males per species as reported by Christensen (2004). The cetacean community around St. Helena is relatively simple, comprising up to three resident species and seasonal species in nearshore waters, with additional species occasionally observed in deeper offshore areas (MacLeod and Bennett, 2007) .
 
-The resident cetaceans species in St. Helena include the pantropical spotted dolphins (*Stenella attenuata*), the most abundant, and the bottlenose dolphins (*Tursiops truncatus*) and rough-toothed dolphins (*Steno bredanensis*) (MacLeod and Bennett, 2007). Humpback whales (*Megaptera novaeangliae*) visit St. Helena annually from June to December to give birth and rear their calves (Saint Helena Government, 2018; Clingham et al., 2013). The Sperm whales *Physeter catodon*, *Kogia breviceps* and *K. sima* are considered occasional visitors (Saint Helena Government, 2018)
+The resident cetaceans species in St. Helena include the pantropical spotted dolphins (*Stenella attenuata*), the most abundant, and the bottlenose dolphins (*Tursiops truncatus*) and rough-toothed dolphins (*Steno bredanensis*) (MacLeod and Bennett, 2007). Humpback whales (*Megaptera novaeangliae*) visit St. Helena annually from June to December to give birth and rear their calves (Saint Helena Government, 2018; Clingham et al., 2013). The Sperm whales *Physeter catodon*, *Kogia breviceps* and *K. sima* are considered occasional visitors (Saint Helena Government, 2018).
 
 MacLeod and Bennett (2007) observed large groups of *S. attenuata* seven times during a short-term survey, with a mean group size of 143 individuals, resulting in sightings of around 1,000 individuals. Dr. Perrin, as cited by Edwards (1990), estimated the population of *S. attenuata* around St. Helena to be between 1250 and 5000 individuals. Based on that, we considered 3125 individuals as the average annual pantropical spotted dolphins population. Martin et al. (2021) conducted marine mammal sightings during research cruises in St. Helena EEZ in 2018 and 2019, recording 254 pantropical spotted dolphins. By extrapolating this figure and considering an estimated population of 3,125, it suggests the actual population could be roughly 12 times the observed number due to the spatial and temporal limitations of the observations. Other cetaceans recorded by Martin et al. (2021) include 190 bottlenose dolphins (*T. truncatus*), 63 rough-toothed dolphins (*S. bredanensis*), three humpback whales (*M. novaeangliae*), 30 sperm whales (*P. catodon*), and 13 *Kogia spp*. Additional sighting databases report the presence of killer whales (*Orcinus orca*), false killer whales (*Pseudorca crassidens*), and southern right whales (*Eubalaena australis*), each observed once (Clingham et al., 2013). A conversion factor of 12 was applied to these sighting numbers due to the incomplete spatial and temporal coverage of the sightings.
 
-This approach resulted in an estimated annual cetacean biomass of 8,762.44 tons, corresponding to a biomass density of 0.02 t/km². We used PB ratios from Morissette et al. (2009), applying 0.099/year for humpback whales, 0.05 for sperm whales, 0.02 for killer whales, and 0.047 for dolphins.
+This approach resulted in an estimated annual cetacean biomass of 8,762.44 tons, corresponding to a biomass density of 0.02 t/km². To obtain the production per year we multiplied this biomass by the PB ratios from Morissette et al. (2009), applying 0.099/year for humpback whales, 0.05 for sperm whales, 0.02 for killer whales, and 0.047 for dolphins.
 
 ### Pinnipeds {.unnumbered}
 
@@ -660,21 +682,29 @@ According to Bester et al. (2021) vagrant southern elephant seals (*Mirounga leo
 
 ### Demersal fish {.unnumbered}
 
-Biomass estimates for demersal fish within the Saint Helena EEZ are scarce in the literature and abundance data are most restricted to rock reefs such as in Cowburn et al. (2021). Consequently, we were unable to establish a target production value for demersal fish in the model. Stock assessments from SAU within the Saint Helena EEZ cover two commercially important demersal species: the deep-water bullseye (*Cookeolus japonicus*) and grouper (*Epinephelus adscensionis*), accounting for an annual biomass of 312.12 tons, which will be used to estimate the harvesting ratio for this guild in section X.
+In this model implementation, we classified all reef fish as demersal, regardless of their diet, due to their association with seabed habitats. Consequently, demersal fish were restricted to the inshore and offshore zones of the model, which cover a smaller area compared to the overhang zone (see section X). In Saint Helena, reef fish occupy a limited coastal area and depend on hard substrates like rock reefs and sand for habitat (Cowburn et al., 2021).
+
+Currently, data on reef fish biomass in Saint Helena are limited, with most sources providing species checklists (Edwards, 1990; Brown et al., 2019). Cowburn et al. (2021) presented the first quantitative assessment of reef fish abundance as part of an ecological monitoring program using underwater visual census techniques. Their surveys were conducted at depths of 5-12 m (shallow) and 14-25 m (deep). From this study, we compiled the species abundance resulting in 0.98 individuals per m². Only three species—the brown chromis (*Chromis multilineata*), St. Helena butterflyfish (*Chaetodon sanctaehelenae*), and St. Helena gregory (*Stegastes sanctaehelenae*)—accounted for about 58% of the total abundance. These species are endemic from Saint Helena and Ascension Island (Cowburn et al., 2021). To estimate biomass from these abundance figures, we used common lengths from each species from FishBase and applied the Bayesian length-weight equations (W = a * LT^b, where a and b are species-specific constants). This analysis, which covered 50 species, yielded a biomass estimate of 0.125 kg per m². 
+
+Ferrari et al. (2024a) also studied reef fish communities in Saint Helena using visual census techniques, reporting both abundance and biomass values. Their results showed a mean density of 1.91 individuals ± 0.08 per m², with endemic species comprising 70% of the total fish density. The mean biomass was reported as 0.30 ± 0.03 kg per m², with survey depths ranging from 4 to 36 m. Ferrari et al. (2024a) emphasized the dominance of mobile invertebrate feeders in reef fish biomass, largely due to the high abundance of the St. Helena butterflyfish. Additionally, Ferrari et al. (2024a) pointed out that the most abundant species, such as *C. sanctaehelenae* and *S. sanctaehelenae*, have broader thermal ranges, which may contribute to their higher abundance in Saint Helena.
+
+Ferrari et al. (2024a) observed low biomass of large fish, likely due to the long-term impacts of historical fishing. Among the larger reef predators, the grouper/rock hind (*Epinephelus ascensionis*) remains the most commercially important demersal species in Saint Helena and is likely the most abundant (Choat and Robertson, 2006). However, groupers in Saint Helena were found to be three times less abundant than in Ascension Island, despite the greater availability of shallow habitats (Choat and Robertson, 2006). According to the Saint Helena Government, underwater visual surveys conducted between 2013 and 2019 reported grouper densities of 1-2 individuals per 100 m² (Riley et al., 2020), equating to an average of 0.015 individuals per m². This is lower than earlier estimates by Choat and Robertson (2006), who reported 0.029 individuals per m² and highlighted significant fishing pressures on the population. While biomass estimates for the grouper are not yet available (Riley et al., 2020), we used the abundance data to estimate the species' contribution to the total biomass. Using species-specific length data from FishBase and Bayesian length-weight equations (W = a * LT^b, with constants from Ascension Island data), we estimate that groupers could account for over 5.4% of the total biomass based on Choat and Robertson (2006) data, and 10.5% when using Riley et al. (2020) data.
+
+To establish a target production value for demersal fish in the model, we applied Ferrari et al. (2024a) as the primary source of biomass estimates, as their data were based on direct measurements of total fish length, reducing the uncertainty that might arise from using Cowburn et al. (2021) abundance figures. For the total biomass in the inshore area, we used a reef area of 264.3 km² (<200 m depth) sourced from Ferrari et al. (2023). This led to a rough biomass estimate of 79,290 tonnes. We could not find PB ratios in the literature for the main species (*C. multilineata*, *C. sanctaehelenae*, and *S. sanctaehelenae*), so we used the average PB reported by Freire et al. (2008) for reef fishes, resulting in a PB value of 0.73. This yielded a production value of 57881.70 tons.
 
 ### Planktivorous fish {.unnumbered}
 
-Small pelagic fish are the foundation for all local fisheries, as they are used as bait. Key bait species include the kingston (*Decapterus macarellus*), stonebrass (*D. muroadsi*), summer stonebrass (*D. punctatus*), steenbrass (*Crumenophthalamus selar*) and mackerel (*Scomber colias*) (St Helena Government, 2023). Several other planktivorous species also play a vital ecological role in the region, such as the rainbow runner (*Elegatis bipinnulata*), pufferfish (*Lagocephalus lagocephalus*), and the endemics bastard cavalley pilot (*Stegastes sanctaehelenae*), greenfish (*Thalassoma sanctaehelenae*) and St. Helena butterflyfish (*Chaetodon sanctahelenae*), which are significant prey for yellowfin tuna and other large pelagic (Laptikhovsky et al., 2020). However, little is known about the abundance or life history of these bait species in Saint Helena (Collins et al., 2012). Currently, no local biomass estimates are available for these species, so we did not use production as target data.
+Small pelagic fish are the foundation for all local fisheries in St. Helena, as they are used as bait. Key bait species include the kingston (*Decapterus macarellus*), stonebrass (*D. muroadsi*), summer stonebrass (*D. punctatus*), steenbrass (*Selar crumenophthalamus*) and mackerel (*Scomber colias*) (St Helena Government, 2023). Several other planktivorous species also play a vital ecological role in the region, such as the rainbow runner (*Elegatis bipinnulata*), pufferfish (*Lagocephalus lagocephalus*), and flyinfishes, which are significant prey for yellowfin tuna and other large pelagic (Laptikhovsky et al., 2020). However, little is known about the abundance of these planktivorous fish in Saint Helena (Collins et al., 2012). We did not find local biomass estimates covering a significant part of the St. Helena MPA available for this guild, so we did not use production as target data.
 
 ### Benthos {.unnumbered}
 
-To date, approximately 64 crustacean species have been identified around Saint Helena (Brown, 2014b), with two key commercial species: the endemic stump lobster (Scyllarides obtusus) and the spiny lobster (Panulirus echinatus).
+To date, approximately 64 crustacean species have been identified around Saint Helena (Brown, 2014b), with two key commercial species: the endemic stump lobster (*Scyllarides obtusus*) and the spiny lobster (*Panulirus echinatus*).
 
 Decapod megalopa crustaceans, along with oceanic shrimps, play an important role in the diets of tunas (Laptikhovsky et al., 2020) and are likely to be abundant in the region. However, we were unable to find biomass data for significant quantities of carnivorous and scavengers and filter and deposit benthos species in the area. Consequently, production was not used as target data for either of the benthos guilds in the model.
 
 ### Zooplankton {.unnumbered}
 
-[to be completed]
+Regarding the zooplankton guilds, we found limited local information, including details on their proportion in the tuna diet (Laptikhovsky et al., 2020) and descriptions of cephalopod species (Saint Helena MPA, 2023). However, to the best of our knowledge, biomass estimates are not available for the St. Helena EEZ. As a result, zooplankton production was not used as target data for the omnivorous and carnivorous zooplankton guilds.
 
 ## Diet proportions {-}
 
@@ -725,27 +755,25 @@ tab
 
 ## Harverting ratio {.unnumbered}
 
-To derive the regional harvest ratio, we calculated the harvest ratio for each commercial guild by dividing the annual catches (landings + discards) of each guild by the biomass of the compiled commercial species (refer to the catch methodology on page X and biomass methodology on page Y). For predator guilds, the annual bycatch value was used instead of the catch value. The input unit for StrathE2E is the harvesting ratio per day.
+To derive the regional harvest ratio, we calculated the harvest ratio for each commercial guild by dividing the annual catches (landings + discards) of each guild by the biomass (refer to the catch methodology on page X and biomass methodology on page Y). For predator guilds, the annual bycatch value was used instead of the catch value. The input unit for StrathE2E is the harvesting ratio per day.
 
-This provided sufficient information to calculate initial values for the scaling parameters linking effort to harvest ratios using the function `e2e_calculate_hrscale()`. We estimated the effort-harvest ratio scaling parameters required to produce the best fit to the 2010-2019 target data using the function `e2e_optimize_hr()`. This optimization was applied exclusively to the Migratory, Demersal, CS benthos and seabirds guilds, as the fishing model does not include DF benthos and CS zooplankton, and for the planktivorous guild we lacked the necessary biomass data to perform these calculations.
+This provided sufficient information to calculate initial values for the scaling parameters linking effort to harvest ratios using the function `e2e_calculate_hrscale()`. We estimated the effort-harvest ratio scaling parameters required to produce the best fit to the 2010-2019 target data using the function `e2e_optimize_hr()`. This optimization was applied exclusively to the migratory fish, demersal fish, and seabirds guilds, as the fishing model does not include SD benthos and CS zooplankton, and for the planktivorous and CS benthos guild we lacked the necessary biomass data to perform these calculations.
 
 ### Migratory fish {.unnumbered}
 
-For the migratory species guild, we calculated the harvesting ratio by dividing the estimated catch (discussed in Section X) by the estimated biomass (outlined in Section Y). In this calculation, we excluded the whale shark (*Rhincodon typus*), as it is not harvested. Atlantic-wide stock assessments conducted by ICCAT indicate that both bigeye tuna (*Thunnus obesus*) and black marlin (*Makaira nigricans*) were overexploited and experiencing overfishing during the baseline period (ICCAT, 2019a; ICCAT, 2019b).
+Atlantic-wide stock assessments conducted by ICCAT indicate that both bigeye tuna (*Thunnus obesus*) and black marlin (*Makaira nigricans*) were overexploited and experiencing overfishing during the baseline period (ICCAT, 2019a; ICCAT, 2019b). Yellowfin tuna (*Thunnus albacares*) was overexploited but not undergoing active overfishing (ICCAT, 2019c), while the eastern stock of skipjack tuna (*Katsuwonus pelamis*) was likely neither overfished nor subject to overfishing during both the baseline period and the most recent assessment (ICCAT, 2019d; ICCAT, 2022). 
 
-Yellowfin tuna (*Thunnus albacares*) was overexploited but not undergoing active overfishing (ICCAT, 2019c), while the eastern stock of skipjack tuna (*Katsuwonus pelamis*) was likely neither overfished nor subject to overfishing during both the baseline period and the most recent assessment (ICCAT, 2019d; ICCAT, 2022). For modeling purposes only, based on rough estimates derived from catch and biomass data used for model parameterization, we obtained a harvesting ratio in Saint Helena EEZ of 6.93E-05.
+To calculate the harvesting ratio, we divided the estimated catch (discussed in Section X) by the estimated biomass of the guild (outlined in Section Y). Note that some species such as the whale sharks are part of the harvesting ratio of the guild although it is not harvested. Based on rough estimates derived from catch and biomass data used for model parameterization, we estimated a migratory fish harvesting ratio of 4.06E-05. 
 
-### Demersal fish {.unnumbered}
+### Demersal {.unnumbered}
 
-For the demersal fish guild, we focused on the rock hind grouper (*Epinephelus adscensionis*) and the deep-water bullseye (*Cookeolus japonicus*), two commercially important demersal species in Saint Helena Island. These species are highly vulnerable to overfishing, and no maximum sustainable yield estimates are currently available for this region (Choat and Robertson, 2006). According to Riley et al. (2020), the grouper is considered to be sustainably fished in Saint Helena; however, there are signs of fishing pressure on the population, and more data are needed to conduct a comprehensive stock assessment (Choat and Robertson, 2006). We utilized stock assessments from the SAU project for the Saint Helena EEZ, which estimate an annual biomass of 312.12 tons for both species combined. Based on these estimates, the calculated harvesting ratio was 7.45E-05.
+The rock hind grouper (*Epinephelus adscensionis*) and the deep-water bullseye (*Cookeolus japonicus*) are highly vulnerable to overfishing, and no maximum sustainable yield estimates are currently available for Saint Helena (Choat and Robertson, 2006). According to Riley et al. (2020), the grouper is considered to be sustainably fished in Saint Helena; however, there are signs of fishing pressure on the population, and more data are needed to conduct a comprehensive stock assessment (Choat and Robertson, 2006). 
 
-### Carnivorous and scavenger benthos {.unnumbered}
+To calculate the harvesting ratio, we divided the estimated catch (discussed in Section X) by the estimated biomass of the guild (outlined in Section Y). Note that some species are part of the harvesting ratio of the guild although it is not harvested. Based on rough estimates derived from catch and biomass data used for model parameterization, we estimated a demersal fish harvesting ratio of 3.72E-07.
 
-For CS benthos, biomass estimates from Collins et al. (2012) reported 38 tons for stump lobsters (*Scyllarides obtusus*) and 9.25 tons for spiny lobsters (*Panulirus echinatus*) based on Ninnes (1991). From this data, the harvesting ratio obtained was 2.67E-06.
+### Seabirds {.unnumbered}
 
-### Seabirds
-
-For seabirds, we performed a rough estimate of the harvesting ratio by dividing the daily bycatch data (as applied in Section X) by the annual biomass estimate (referenced in Section Y). This calculation resulted in a harvesting ratio of 1.38E-06.
+For seabirds, we performed a rough estimate of the harvesting ratio by dividing the daily bycatch data (as applied in Section X) by the annual biomass estimate (referenced in Section Y). This calculation resulted in a harvesting ratio of 1.32E-05.
 
 ## Ambiental data {.unnumbered}
 
@@ -796,12 +824,12 @@ adjust_header <- function(gt_table) {
 list_spp <- read_csv("tables.csv")
 
 group_info <- list(
-  list("Cetaceans", 1, 12),
-  list("Seabirds", 13, 29),
-  list("Migratory fish", 30, 54),
-  list("Demersal fish", 55, 62),
-  list("Planktivorous fish", 63, 74),
-  list("Carnivores and scavengers benthos", 75, 77))
+  list("Cetaceans", 1, 10),
+  list("Seabirds", 11, 27),
+  list("Migratory fish", 28, 52),
+  list("Demersal fish", 53, 65),
+  list("Planktivorous fish", 66, 72),
+  list("Carnivores and scavengers benthos", 73, 75))
 
 ```
 
@@ -885,8 +913,8 @@ gt_table_page3 <- list_spp[51:75, ] %>%
 
 group_info_page3 <- list(
   list("Carnivorous and scavengers benthos", 23, 25),
-  list("Planktivorous fish", 11, 22),
-  list("Demersal fish", 3, 10),
+  list("Planktivorous fish", 16, 22),
+  list("Demersal fish", 3, 15),
   list("Migratory fish", 1, 2))
 
 for (group in group_info_page3) {
