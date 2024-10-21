@@ -81,7 +81,7 @@ The seafloor within the StrathE2E model can be classified into eight habitat typ
 
 As of V.4, StrathE2E2 can represent an offshore "overhang" where open ocean does not contact the seafloor (Figure \@ref(fig:overhang)). The perimeter of the offshore zone in the model domain is the edge of the MPA, with a "false bottom" (overhang) that exchanges with the deep sea. By using the MPA to define the model domain, we accurately represent the protected status of Saint Helena Island, which also corresponds to the Exclusive Economic Zone (EEZ). The total area of the model is 444,901 km².
 
-```{r domain, echo=FALSE, fig.cap="Map of the model domain. StrathE2E defines seabed sediment habitats as inshore (light gray) or offshore/overhang (dark gray). Within each zone, three sediment classes can be represented -- fine (muddy, 1), medium (sandy, 2) and coarse (gravel, 3). A fourth class (rock, 0) represents an absence of soft sediment. Note that the majority of the Saint Helena model domain is comprised by the "overhang", which does not contact the sea floor.", out.width = '100%'}
+```{r domain, echo=FALSE, fig.cap="Map of the model domain. StrathE2E defines seabed sediment habitats as inshore (light gray) or offshore/overhang (dark gray). Within each zone, three sediment classes can be represented -- fine (muddy, 1), medium (sandy, 2) and coarse (gravel, 3). A fourth class (rock, 0) represents an absence of soft sediment. Note that the majority of the Saint Helena model domain is comprised by the 'overhang', which does not contact the sea floor.", out.width = '100%'}
 knitr::include_graphics("img/domain.png")
 ```
 
@@ -133,7 +133,7 @@ tab_area_proportions_cap <- table_nums(name = "tab_area_proportions",
 
 ```{r area_proportions}
 
-data_frame(Property = c("Sea-surface area proportion",
+tibble(Property = c("Sea-surface area proportion",
                         "Upper layer thickness (m)",
                         "Lower layer thickness (m)"),
            `Inshore/shallow` = c(model[["data"]][["physical.parameters"]][["x_shallowprop"]], 
@@ -183,7 +183,7 @@ data_frame(Habitat = c("S0", "S1", "S2", "S3", "D0", "D1", "D2", "D3", "OV"),
   fmt_number(columns = c("Area Proportion", "Grain size", "Porosity", "Permeability", "Nitrogen content"), 
                          decimals = 4, use_seps = FALSE) %>% 
   cols_align(align = 'center',
-             columns = vars(`Area Proportion`, `Grain size`, Porosity, Permeability, `Nitrogen content`)) %>% 
+             columns = c(`Area Proportion`, `Grain size`, Porosity, Permeability, `Nitrogen content`)) %>% 
   tab_options(row_group.background.color = "whitesmoke")
 
 
@@ -606,12 +606,12 @@ production_tab <- data.frame(
 tab <- production_tab %>%
   gt() %>%
   fmt_number(
-    columns = vars(`P/B`, `mMN convertion`, `Production(t)`),
+    columns = c(`P/B`, `mMN convertion`, `Production(t)`),
     decimals = 2,
     use_seps = FALSE
   ) %>%
   fmt_number(
-    columns = vars(`Production (mMN.m-2)`),
+    columns = c(`Production (mMN.m-2)`),
     decimals = 6,
     use_seps = FALSE
   ) %>%
@@ -753,7 +753,7 @@ Chlorophyll concentration was used as a target indicator for primary productivit
 
 # End {.unnumbered}
 
-## Acknowledgements {.unnumbered}
+### Acknowledgements {.unnumbered}
 
 Financial support for the development of the Saint Helena EEZ implementation of StrathE2E came from the European Union Horizon 2020 research and innovation programme (Mission Atlantic - No. 862428). We are grateful to:
 
@@ -761,7 +761,7 @@ Financial support for the development of the Saint Helena EEZ implementation of 
 
 -   [to be completed]
 
-## Appendix {.unnumbered}
+### Appendix {.unnumbered}
 
 The species mentioned in this documentation and/or in the data used in the construction of the model are in the table below by guild of the StrathE2E model `r table.ref("list_species")`.
 
@@ -778,7 +778,7 @@ tab_list_cap <- table_nums(name = "list_species", caption = "List of the main sp
 apply_group_style <- function(gt_table, group_name, start_row, end_row) {
   gt_table %>%
     tab_row_group(
-      group = group_name,
+      label = group_name,
       rows = start_row:end_row) %>%
     tab_style(
       style = list(cell_fill(color = "#D3D3D3"),
