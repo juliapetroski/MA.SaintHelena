@@ -81,13 +81,13 @@ body h4 {
 }
 
 .pagedjs_left_page p, .pagedjs_left_page h2, .pagedjs_left_page h3, .pagedjs_left_page h4, .pagedjs_left_page #refs {
-  margin-right: 7% !important;
-  margin-left: 7% !important
+  margin-right: 6% !important;
+  margin-left: 6% !important
 }
 
 .pagedjs_right_page p, .pagedjs_right_page h2, .pagedjs_right_page h3, .pagedjs_right_page h4 , .pagedjs_right_page #refs {
-  margin-left: 7% !important;
-  margin-right: 7% !important
+  margin-left: 6% !important;
+  margin-right: 6% !important
 }
 
 img {
@@ -95,10 +95,10 @@ img {
     height: auto; 
     display: block; 
     margin: 0 auto; 
-    margin-bottom: 1cm; 
+    margin-bottom: 0cm; 
 }
 
 table {
     width: 100%; 
-    margin-bottom: 1cm; 
+    margin-bottom: 0cm; 
 }
