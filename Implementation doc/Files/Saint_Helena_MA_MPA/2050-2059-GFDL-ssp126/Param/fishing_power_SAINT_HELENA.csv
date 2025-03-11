@@ -1,0 +1,13 @@
+Gear_name,Gear_code,Power_PF,Power_DF,Power_MF,Power_FDB,Power_CSB,Power_CZ,Power_BD,Power_SL,Power_CT,Power_KP
+Pole_and_line,PL,0,0,14.05307202,0,0,0,0,0,0,0
+Longlines,LL,0,0,16.24189869,0,0,0,0.01490672,0,0,0
+Illegal_longlines,ILL,0,0,16.24189869,0,0,0,0.01490672,0,0,0
+Hand_lines,HL,0,5.27186642,2.29613465,0,0,0,0.04262946,0,0,0
+Handlines_and_dip-nets_(bait),HD,7.0960549,0,0,0,0,0,0,0,0,0
+Illegal_purse_seine,IPS,0,0,17.99468914,0,0,0,0,0,0,0
+Hand-gathering_and_pots,HP,0,0,0,0,0.21430235,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0,0
+NA,NA,0,0,0,0,0,0,0,0,0,0

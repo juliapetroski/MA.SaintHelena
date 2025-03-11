@@ -1,0 +1,13 @@
+Gear_id,Gear_name,Gear_to_which_linked,Linkage_coefficient,Comments
+1,Pole_and_line,2,1,Linked to other tuna gears
+2,Longlines,1,1,Linked to other tuna gears
+3,Illegal_longlines,6,1,Linked to other illegal activity
+4,Hand_lines,7,1,Linked to other inshore gears
+5,Handlines_and_dip-nets_(bait),1,1,Linked to the gear that uses it as bait
+6,Illegal_purse_seine,3,1,Linked to other illegal activity
+7,Pots_and_hand_gathering,4,1,Linked to other inshore gears
+11,NA,NA,NA,NA
+11,NA,NA,NA,NA
+11,NA,NA,NA,NA
+11,NA,NA,NA,NA
+12,NA,NA,NA,NA
