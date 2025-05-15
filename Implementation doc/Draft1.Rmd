@@ -57,7 +57,7 @@ The remainder are fitted, as detailed here.
 Changes in the model performance between the different time periods therefore stem from the hydrodynamic, hydro-chemical and fishery driving data.
 These are detailed in the ecological drivers and fishing fleet sections.
 
-In the StrathE2E model all marine lifeforms are explicitly or implicitly accounted for, but aggregated into coarse groups or 'guilds' defined mainly by feeding characteristics and diet preferences (Figure \@ref(fig:guilds).
+In the StrathE2E model all marine lifeforms are explicitly or implicitly accounted for, but aggregated into coarse groups or 'guilds' defined mainly by feeding characteristics and diet preferences (Figure \@ref(fig:guilds)).
 All state variables, except macrophytes, are expressed solely in terms of nitrogen mass.
 For more information about the StrathE2E model check the [documentations](http://www.marineresourcemodelling.maths.strath.ac.uk/strathe2e/) available.
 
@@ -533,7 +533,7 @@ Details of how these data were processed are given below, supported by the [nemo
 ### NEMO-ERSEM ensemble: {.unnumbered}
 
 Four different NEMO-ERSEM runs were used to parameterise different versions of the Saint Helena Island implementation of StrathE2E.
-These four runs are a 2x2 factorial cross of two future projected scenarios (SSP1-2.6 and SSP3-7.0) with a historical hindcast from 2015, and forcing by two atmospheric CMIP6 models (CNRM-CM6-1-HR and GFDL-ESM4)
+These four runs are a 2x2 factorial cross of two future projected scenarios (SSP1-2.6 and SSP3-7.0) with a historical hindcast from 2015, and forcing by two atmospheric CMIP6 models (CNRM-CM6-1-HR and GFDL-ESM4) produced by @artioli23.
 In the following sections model output was processed for a 2010-2019 baseline period, and then decadal projections from 2020-2029 until 2060-2069.
 
 ### Vertical mixing coefficients between the model layers: {.unnumbered}
@@ -1259,7 +1259,7 @@ Model parameter optimization is crucial for aligning the model with observationa
 
 In this implementation, model fitting was performed using a common set of parameters for both GFDL models SSPs and another for both CNRM SSPs, utilizing the corresponding NEMO-ERSEM environmental driving data from the 2010–2015 period. Additionally, the 2010–2019 guild-level harvest ratios for fish and invertebrates were incorporated, along with a comprehensive dataset on the ecological state of the system for the same period, shared across CNRM and GFDL variations, as detailed at the Target data Section. The results are shown graphically in Figures 8-11.
 
-The optimization process returned an overall likelihood of 0.7799 for CNRM SSP1-2.6, 0.7843 for CNRM SSP3-7.0, 0.7728 for GFDL SSP1-2.6, 0.7696 for GFDL SSP3-7.0. 
+The optimization process returned an overall likelihood of 0.764 for CNRM SSP1-2.6, 0.767 for CNRM SSP3-7.0, 0.754 for GFDL SSP1-2.6, 0.750 for GFDL SSP3-7.0. 
 
 \newpage
 
@@ -1300,10 +1300,10 @@ create_table <- function(file_path) {
 }
 
 files <- list(
-  "Files/Fitting/model_target_annualresults_plus_chi-2010-2019-CNRM-ssp126.csv",
-  "Files/Fitting/model_target_annualresults_plus_chi-2010-2019-CNRM-ssp370.csv",
-  "Files/Fitting/model_target_annualresults_plus_chi-2010-2019-GFDL-ssp126.csv",
-  "Files/Fitting/model_target_annualresults_plus_chi-2010-2019-GFDL-ssp370.csv")
+  "Files/Fitting_updated/model_target_annualresults_plus_chi-2010-2019-CNRM-ssp126.csv",
+  "Files/Fitting_updated/model_target_annualresults_plus_chi-2010-2019-CNRM-ssp370.csv",
+  "Files/Fitting_updated/model_target_annualresults_plus_chi-2010-2019-GFDL-ssp126.csv",
+  "Files/Fitting_updated/model_target_annualresults_plus_chi-2010-2019-GFDL-ssp370.csv")
 
 ```
 
@@ -1319,7 +1319,7 @@ create_table(files[[1]])
 ```
 
 ```{r fitting-fig1, echo=FALSE, fig.cap="Annual integrated or averaged results from the best-fit CNRM SSP1-2.6 2010-2019 stationary model variant, compared with observed data from Saint Helena MPA. Black boxes and whiskers represent the corresponding variability in measurements aggregated over the 2010–2019 period. The visualization was generated using the function e2e_compare_obs(selection='ANNUAL').", out.width = '100%'}
-knitr::include_graphics("Files/Fitting/Saint_Helena_MA_MPA_2010-2019_CNRM-ssp126_compare_plot.png")
+knitr::include_graphics("Files/Fitting_updated/Saint_Helena_MA_updated_2010-2019_CNRM-ssp126_compare_plot.png")
 ```
 
 \newpage
@@ -1335,7 +1335,7 @@ create_table(files[[2]])
 ```
 
 ```{r fitting-fig2, echo=FALSE, fig.cap="Annual integrated or averaged results from the best-fit CNRM SSP3-7.0 2010-2019 stationary model variant, compared with observed data from Saint Helena MPA. Black boxes and whiskers represent the corresponding variability in measurements aggregated over the 2010–2019 period. The visualization was generated using the function e2e_compare_obs(selection='ANNUAL').", out.width = '100%'}
-knitr::include_graphics("Files/Fitting/Saint_Helena_MA_MPA_2010-2019_CNRM-ssp370_compare_plot.png")
+knitr::include_graphics("Files/Fitting_updated/Saint_Helena_MA_updated_2010-2019_CNRM-ssp370_compare_plot.png")
 ```
 
 \newpage
@@ -1351,7 +1351,7 @@ create_table(files[[3]])
 ```
 
 ```{r fitting-fig3, echo=FALSE, fig.cap="Annual integrated or averaged results from the best-fit GFDL SSP1-2.6 2010-2019 stationary model variant, compared with observed data from Saint Helena MPA. Black boxes and whiskers represent the corresponding variability in measurements aggregated over the 2010–2019 period. The visualization was generated using the function e2e_compare_obs(selection='ANNUAL').", out.width = '100%'}
-knitr::include_graphics("Files/Fitting/Saint_Helena_MA_MPA_2010-2019_GFDL-ssp126_compare_plot.png")
+knitr::include_graphics("Files/Fitting_updated/Saint_Helena_MA_updated_2010-2019_GFDL-ssp126_compare_plot.png")
 ```
 
 \newpage
@@ -1367,7 +1367,7 @@ create_table(files[[4]])
 ```
 
 ```{r fitting-fig4, echo=FALSE, fig.cap="Annual integrated or averaged results from the best-fit GFDL SSP3-7.0 2010-2019 stationary model variant, compared with observed data from Saint Helena MPA. Black boxes and whiskers represent the corresponding variability in measurements aggregated over the 2010–2019 period. The visualization was generated using the function e2e_compare_obs(selection='ANNUAL').", out.width = '100%'}
-knitr::include_graphics("Files/Fitting/Saint_Helena_MA_MPA_2010-2019_GFDL-ssp370_compare_plot.png")
+knitr::include_graphics("Files/Fitting_updated/Saint_Helena_MA_updated_2010-2019_GFDL-ssp370_compare_plot.png")
 ```
 
 # End {.unnumbered}
